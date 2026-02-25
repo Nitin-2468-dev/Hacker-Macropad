@@ -1,0 +1,6 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"SW5,SW2,SW9,SW10,SW3,SW8,SW4,SW12,SW11,SW7,SW6,SW1";"SW_Cherry_MX_1.00u_PCB";12;"SW_Push";;;
+2;"D11,D6,D7,D9,D8,D4,D3,D1,D10,D2,D5,D12";"D_SOD-523";12;"1N4148WT";;;
+3;"J1";"SSD1306-0.91-OLED-4pin-128x32";1;"Display";;;
+4;"U1";"XIAO-Generic-Hybrid-14P-2.54-21X17.8MM";1;"MOUDLE-SEEEDUINO-XIAO";;;
+5;"SW13";"RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm";1;"RotaryEncoder";;;
