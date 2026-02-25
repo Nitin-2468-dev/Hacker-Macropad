@@ -39,7 +39,7 @@ A small and compact 3×4 programmable Macropad built around the Seeed XIAO RP204
 
 * Two-piece enclosure
 * Top plate with switch cutouts
-* Bottom shell holds PCB + XIAO
+* Bottom shell holds PCB & XIAO and other componets.
 * Corner screw mounting
 * Internal clearance for OLED + encoder
 
