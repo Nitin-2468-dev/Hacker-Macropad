@@ -1,19 +1,16 @@
+# Hacker Macropad
 
-
-#  Hacker Macropad
-
-A compact **3×4 programmable macropad** built around the **Seeed XIAO RP2040**, running **QMK firmware**.
-Designed for programmers, terminal users, and automation — with layers for navigation, symbols, and macros.
+A small and compact 3×4 programmable Macropad built around the Seeed XIAO RP2040, running on QMK firmware. Designed for programmers, terminal users, and automation — with layers for navigation, symbols, and macros.
 
 ---
 
-## 📸 Overall Hackpad
+## Overall Hackpad
 
 ![Hackpad Overview](assets/hackpad_overall.png)
 
 ---
 
-##  Schematic
+## Schematic
 
 ![Schematic](assets/schematic.png)
 
@@ -22,21 +19,21 @@ Designed for programmers, terminal users, and automation — with layers for nav
 * ROW2COL diode direction
 * Connected to XIAO RP2040 GPIO matrix
 
---- 
+---
 
-##  PCB Layout
+## PCB Layout
 
 ![PCB](assets/pcb.png)
 
 * Custom matrix routing
 * Through-hole tactile switches
 * XIAO RP2040 footprint
-* OLED header + rotary encoder footprint
+* OLED header with a  rotary encoder footprint
 * Compact square layout
 
 ---
 
-##  Case & Assembly
+## Case & Assembly
 
 ![Case](assets/case.png)
 
@@ -48,7 +45,7 @@ Designed for programmers, terminal users, and automation — with layers for nav
 
 ---
 
-##  Features
+## Features
 
 * 12 programmable keys (QMK)
 * RP2040 native USB
@@ -62,9 +59,7 @@ Designed for programmers, terminal users, and automation — with layers for nav
 
 ---
 
-
-
-#  Bill of Materials (BOM)
+# Bill of Materials (BOM)
 
 | Item                        | Qty | Notes            |
 | --------------------------- | --- | ---------------- |
@@ -78,12 +73,11 @@ Designed for programmers, terminal users, and automation — with layers for nav
 | Standoffs                   | 4   | PCB mounting     |
 | Case (3D Printed)           | 1   | Top + Bottom     |
 
-
 ---
 
-##  Default Keymap (Programmer Layout)
+## Default Keymap (Programmer Layout)
 
-### Layer 0 — Navigation
+### Mode 1 — Navigation
 
 * Arrow keys
 * ESC / TAB / HOME / END
@@ -93,7 +87,7 @@ Designed for programmers, terminal users, and automation — with layers for nav
 
 `{ } [ ] ( ) | \ < >`
 
-### Layer 2 — Dev Shortcuts
+### Mode 2 — Dev Shortcuts
 
 * Ctrl+C / Ctrl+V / Ctrl+Z
 * Ctrl+S / Ctrl+F / Ctrl+R
@@ -102,9 +96,9 @@ Designed for programmers, terminal users, and automation — with layers for nav
 
 ---
 
-##  Firmware
+## Firmware
 
-Built using **QMK Firmware**
+Built using QMK Firmware
 
 ### Compile
 
@@ -113,14 +107,15 @@ qmk clean
 qmk compile -kb hacker_macropad -km default
 ```
 
-![Hackpad Qmk Complied](assets/hackpad_code.png)
+---
 
 ### Flash (RP2040)
 
 1. Double-tap RESET on XIAO RP2040
 2. USB drive appears
-3. Copy `.uf2` firmware file
+3. Copy .uf2 firmware file
 4. Done 🎉
 
 ---
 
+## About
