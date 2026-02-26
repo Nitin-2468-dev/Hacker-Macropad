@@ -83,11 +83,11 @@ A small and compact 3×4 programmable Macropad built around the Seeed XIAO RP204
 * ESC / TAB / HOME / END
 * Modifier keys
 
-### Layer 1 — Coding Symbols
+### Mode 2 — Coding Symbols
 
 `{ } [ ] ( ) | \ < >`
 
-### Mode 2 — Dev Shortcuts
+### Mode 3 — Dev Shortcuts
 
 * Ctrl+C / Ctrl+V / Ctrl+Z
 * Ctrl+S / Ctrl+F / Ctrl+R
@@ -119,3 +119,4 @@ qmk compile -kb hacker_macropad -km default
 ---
 
 ## About
+
