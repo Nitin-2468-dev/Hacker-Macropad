@@ -73,6 +73,9 @@ A small and compact 3×4 programmable Macropad built around the Seeed XIAO RP204
 | Standoffs                   | 4   | PCB mounting     |
 | Case (3D Printed)           | 1   | Top + Bottom     |
 
+<img width="977" height="617" alt="image" src="https://github.com/user-attachments/assets/041f601d-853b-4d62-8890-3a4881513962" />
+
+
 ---
 
 ## Default Keymap (Programmer Layout)
@@ -119,4 +122,5 @@ qmk compile -kb hacker_macropad -km default
 ---
 
 ## About
+
 
